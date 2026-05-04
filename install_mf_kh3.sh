@@ -3,15 +3,15 @@
 # ==============================================================================
 # INSTALADOR DE MEDIA FOUNDATION PARA KINGDOM HEARTS III
 #
-# Autor: lucasdocouto
-# Data: 10/06/2025
+# Autor: lucasdocouto (edited by fyiimysf)
+# Data: 04/05/2026
 #
 # Descrição:
 # Este script automatiza a instalação do Media Foundation (MF) para a versão
 # de KINGDOM HEARTS III + Re Mind gerenciada pelo Heroic Games Launcher
 # (via Flatpak), a fim de corrigir a reprodução de vídeos (cutscenes).
 #
-# Pré-requisitos:
+# Pre-requisite:
 # - git: necessário para clonar o repositório do mf-install.
 # - O jogo deve estar instalado via Heroic Games Launcher em seu caminho padrão.
 # ==============================================================================
@@ -22,11 +22,11 @@ USER_HOME=$(eval echo ~"$USER")
 
 # Caminho para o prefixo do jogo.
 # ATENÇÃO: Verifique se este caminho corresponde à sua instalação.
-WINEPREFIX_PATH="$USER_HOME/Games/Heroic/Prefixes/default/KINGDOM HEARTS III  Re Mind/pfx"
+WINEPREFIX_PATH="$USER_HOME/Games/Heroic/Prefixes/default/Kingdom Hearts III and Re-Mind/pfx"
 
 # Caminho para a versão do Proton usada pelo Heroic.
 # ATENÇÃO: Verifique o nome da pasta se usar uma versão diferente de GE-Proton.
-PROTON_PATH="$USER_HOME/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/proton/GE-Proton-latest"
+PROTON_PATH="$USER_HOME/.config/heroic/tools/proton/GE-Proton-latest"
 
 # -- EXECUÇÃO --
 
